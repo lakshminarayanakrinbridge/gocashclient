@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="&#8377; 20.00"
+        android:textSize="35dp" />
+
+    <RelativeLayout
+        android:id="@+id/rl_ecashBack"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_above="@+id/rl_ecashLater"
+        android:background="@drawable/rl_bottom_border">
+
+        <ImageView
+            android:id="@+id/img_ecashBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_loyalty_pro"
+            android:tint="#9367e2" />
+
+        <TextView
+            android:id="@+id/txt_ecashBack"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="6dp"
+            android:layout_toRightOf="@+id/img_ecashBack"
+            android:gravity="center_vertical"
+            android:text="eCash Back Balance"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt_ecashBack_bal"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/img_right_arrow_ecashBack"
+            android:background="@drawable/textview_bg"
+            android:gravity="right"
+            android:text="3" />
+
+        <ImageView
+            android:id="@+id/img_right_arrow_ecashBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_arrow_right"
+            android:tint="#646366" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_ecashLater"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_above="@+id/rl_savedOffers"
+        android:background="@drawable/rl_bottom_border">
+
+        <ImageView
+            android:id="@+id/img_ecashLater"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_pay_bill"
+            android:tint="#9367e2" />
+
+        <TextView
+            android:id="@+id/txt_ecashLater"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="6dp"
+            android:layout_toRightOf="@+id/img_ecashLater"
+            android:gravity="center_vertical"
+            android:text="eCash Later Balance"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt_ecashLater_bal"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/img_right_arrow_ecashLater"
+            android:background="@drawable/textview_bg"
+            android:gravity="right"
+            android:text="3" />
+
+        <ImageView
+            android:id="@+id/img_right_arrow_ecashLater"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_arrow_right"
+            android:tint="#646366" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_savedOffers"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_above="@+id/rl_history"
+        android:background="@drawable/rl_bottom_border">
+
+        <ImageView
+            android:id="@+id/img_savedOffers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_wallet"
+            android:tint="#9367e2" />
+
+        <TextView
+            android:id="@+id/txt_savedOffers"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="6dp"
+            android:layout_toRightOf="@+id/img_savedOffers"
+            android:gravity="center_vertical"
+            android:text="Saved Offers"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt_savedOffers_bal"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/img_right_arrow_savedOffers"
+            android:background="@drawable/textview_bg"
+            android:gravity="right"
+            android:text="3" />
+
+        <ImageView
+            android:id="@+id/img_right_arrow_savedOffers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_arrow_right"
+            android:tint="#646366" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_history"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_above="@+id/btn_nearby"
+        android:background="@drawable/rl_bottom_border">
+
+        <ImageView
+            android:id="@+id/img_history"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_history"
+            android:tint="#9367e2" />
+
+        <TextView
+            android:id="@+id/txt_history"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="6dp"
+            android:layout_toRightOf="@+id/img_history"
+            android:gravity="center_vertical"
+            android:text="History &amp; Receipts"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt_history_bal"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/img_right_arrow"
+            android:background="@drawable/textview_bg"
+            android:gravity="right"
+            android:text="6" />
+
+        <ImageView
+            android:id="@+id/img_right_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_arrow_right"
+            android:tint="#646366" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_ecashWallet"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_above="@+id/rl_ecashBack"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/rl_bottom_border">
+
+        <ImageView
+            android:id="@+id/img_ecashWallet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_unused_coupons"
+            android:tint="#9367e2" />
+
+        <TextView
+            android:id="@+id/txt_ecashWallet"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="6dp"
+            android:layout_toRightOf="@+id/img_ecashWallet"
+            android:gravity="center_vertical"
+            android:text="eCash Wallet Balance"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt_ecashWallet_bal"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/img_right_arrow_ecashWallet"
+            android:background="@drawable/textview_bg"
+            android:gravity="right"
+            android:text="3" />
+
+        <ImageView
+            android:id="@+id/img_right_arrow_ecashWallet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_arrow_right"
+            android:tint="#646366" />
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/btn_nearby"
+        layout="@layout/btn_nearby_offers"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="30dp" />
+
+    <TextView
+        android:id="@+id/txt_pay_now"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textview_bg"
+        android:padding="10dp"
+        android:text="Pay Now"
+        android:textSize="18dp"
+        android:layout_below="@+id/txt_amount"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ECash</string>
+    <string name="google_map_api_key">AIzaSyCYXkXcOwSPF5-EGYrdrPhMv5VmJiXif-w</string>
+    <string name="str_nearby_offers">Nearby Offers</string>
+    <string name="str_filter">Filter</string>
+    <string name="str_reset">Reset</string>
+</resources>

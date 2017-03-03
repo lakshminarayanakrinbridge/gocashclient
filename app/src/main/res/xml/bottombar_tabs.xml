@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        activeColor="#d8c8fa"
+        icon="@drawable/ic_contacts"
+        id="@+id/tab_contacts"
+        title="Contacts" />
+    <tab
+        activeColor="#FFD8C8FA"
+        icon="@drawable/ic_chats"
+        id="@+id/tab_chats"
+        title="Chats" />
+    <tab
+        activeColor="#FFD8C8FA"
+        icon="@drawable/ic_pay_bill"
+        id="@+id/tab_pay_bill"
+        title="Pay Bill" />
+    <tab
+        activeColor="#FFD8C8FA"
+        icon="@drawable/ic_wallet"
+        id="@+id/tab_wallet"
+        title="Wallet" />
+    <tab
+        activeColor="#FFD8C8FA"
+        icon="@drawable/ic_settings"
+        id="@+id/tab_settings"
+        title="Settings" />
+</tabs>
